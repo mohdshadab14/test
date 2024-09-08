@@ -1,0 +1,91 @@
+Ans 1:-  Polymorephism is divided two parts, first is poly ,poly means is Many. second is morephism  mean form .it's called manyform .
+	Polymorephism is one object but different behavious called is Polymorephism,
+	
+	Polymorephism are two types:
+					1.Method overloading
+					2.Method  overriding
+						
+	Method overloading:- More than method same name but parameter types different 
+
+	example:-
+	
+	class Sum
+	{
+		void add(){
+		int a =10, b =20,c;
+		c = a + b;
+                System.out.println(c)
+		
+
+
+		void add(int x, int y){
+		int c
+		c = a + b;
+                System.out.println(c)
+		
+
+
+	}
+
+	class Main{
+         
+		Public static void main(String args[]){
+			
+		Sum s = new Sum();
+		s.add();
+		s.add(20,40);
+	}
+}
+
+
+	Method overriding :- super class and sub class 
+	
+	class Shape{
+		void draw()
+		{
+		System.out.println("can't to draw");
+		}
+	}
+	
+	class Square extends Shape {
+ 		
+		@override
+	
+		void draw()
+		{
+			System.out.println("square");
+
+		}
+}
+	class Main{
+		public static void main(String args[]) {
+		 
+		Shape s = new Square();
+		s.draw();
+		}
+}
+
+Ans3:-
+  JSON:- JavaScript object Notation
+  XML:- Extension Markup language
+  Html:- Hyper text markup language
+  API :-Application programming Language
+
+Ans2:-
+	client server architecture:-
+	
+		first of all clinet send the request of server .Server architecture check the request in API.
+		
+
+
+
+ 		Client architecture -------->[API]------------------> Server architecture
+								
+		(Request)		(check request)			(Response)
+		
+
+
+
+
+		
+	
