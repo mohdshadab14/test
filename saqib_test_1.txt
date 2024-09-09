@@ -1,0 +1,75 @@
+Date – 08 -09-2024
+Ans 1. Same object having different behaviour.
+
+There are two type of polymorphism.
+
+(i)	Compile time polymorphism (overloading)
+
+Class{
+Saqib(int a ,int b){
+
+}
+Saqib (int a){
+}
+} 
+
+(ii) Runtime polymorphism (overriding)
+ 
+Class A{                                       //super class
+
+}
+Class B extends A{             // sub class
+}
+Class B is Inherit to class A 
+
+Ans 2. 
+                             Request-->
+Client  ----------------API------------------- server ---------database 
+                        <--- Response
+
+Ans 3.         JSON -- Java Script object Notation
+               XML – Extensible Markup Language
+              HTML – Hyper Text 
+               API – application programming interface
+
+Code :
+Class A {
+Void test(){
+Int a = 10;
+Int b =20;
+Int c=a+b;
+}
+}
+Class B extends A{
+Void test(){
+d = 2;
+e = 4;
+f = e*d;
+}
+}
+Public static void main(){
+B.test();
+System.out.println(“multi”+f);
+System.out.println(“sum”+c);
+}
+
+Code:
+Class A{
+Saqib(int a ,int b){
+
+c= a+b;
+
+}
+Saqib (int a,int b,int c){
+d == a+b+c;
+
+}
+Public static void main(){
+A.saqib(5,8);
+System.out.println(c);
+A.saqib(5,10,15);
+System.out.println(d);
+
+}
+} 
+
